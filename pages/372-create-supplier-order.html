@@ -1,0 +1,222 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+<head>
+<title>3.7.2 Create Supplier Order</title>
+
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Softany WordToHelp">
+<meta http-equiv="X-UA-Compatible" content="IE=8">
+<link href="doc_style.css" rel="stylesheet" type="text/css">
+<LINK rel=stylesheet type=text/css href="winchm_template_style.css">
+
+</head>
+<BODY><script language="JavaScript" type="text/JavaScript">
+function syn(){
+if(parent.nav.tree){
+ if(parent.nav.tree.loaded){
+  parent.nav.tree.selectNode(58);
+ }else{
+  setTimeout("syn()",500);
+}
+  }else{
+  setTimeout("syn()",500);
+  }}
+if(parent!=self){
+  setTimeout("syn()",100);
+}else{
+  parent.location.href = "../index.html?page=372-create-supplier-order.html";
+}
+originalOnload = window.onload;
+if(originalOnload==null){
+window.onload = function(){parent.contentLoaded = true;};
+}else{
+window.onload = function(){originalOnload();parent.contentLoaded = true;};
+}
+</script> 
+
+<div id="winchm_template_button"><A href="371-supplier-order-home-screen.html" title="Previous"><img id="winchm_template_prev" alt="Previous" src="btn_prev_n.gif" border="0"></a><A href="373-confirm-supplier-order.html" title="Next"><img id="winchm_template_next" alt="Next" src="btn_next_n.gif" border="0"></a></div>
+<div id="winchm_template_navigation">Help &gt; <a href="31-merchant-subsystem.html">3.&nbsp;Section C - Explanations for all the screens</a> &gt; <a href="37-supplier-order-subsystem.html">3.7 Supplier Order Subsystem</a> &gt; 3.7.2 Create Supplier Order</div>
+<div id="winchm_template_title">3.7.2 Create Supplier Order</div>
+<div id="winchm_template_content">
+
+<p class=MsoNormal><b>Purpose:</b> <span style='font-size:11.0pt;line-height:
+107%;font-family:"Calibri",sans-serif'>The system should allow the admin to
+create new supplier orders when the supplier requires new stock. The admin will
+select the supplier from which he can order specific products from. When the
+supplier has been selected from a drop-down list, linked items to the supplier
+will become selectable to the admin. Once the order has been confirmed by a
+confirmation button the system will save the order into the database and send a
+structured email to the supplier. The status of the order will be set to
+awaiting confirmation.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=601 height=315 id=image94.png src="doc_files/image115.png"></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<table class=affffffffffffffc border=1 cellspacing=0 cellpadding=0 width=609
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=80 valign=top style='width:60.0pt;border:solid black 1.0pt;
+  background:#0070C0;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><b><span style='color:white'>Item Num</span></b></p>
+  </td>
+  <td width=253 valign=top style='width:189.75pt;border:solid black 1.0pt;
+  border-left:none;background:#0070C0;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><b><span style='color:white'>Item Name</span></b></p>
+  </td>
+  <td width=276 valign=top style='width:207.0pt;border:solid black 1.0pt;
+  border-left:none;background:#0070C0;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'><b><span style='color:white'>Description</span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=80 valign=top style='width:60.0pt;border:solid black 1.0pt;
+  border-top:none;background:white;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'>      1.</p>
+  </td>
+  <td width=253 valign=top style='width:189.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  background:white;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>        
+  Supplier input</p>
+  </td>
+  <td width=276 valign=top style='width:207.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  background:white;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>Enter into
+  the Supplier input</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=80 valign=top style='width:60.0pt;border:solid black 1.0pt;
+  border-top:none;background:white;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'>      2.</p>
+  </td>
+  <td width=253 valign=top style='width:189.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  background:white;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>        Order
+  Invoice input</p>
+  </td>
+  <td width=276 valign=top style='width:207.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  background:white;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>Enter into
+  the Order Invoice input</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=80 valign=top style='width:60.0pt;border:solid black 1.0pt;
+  border-top:none;background:white;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'>      3.</p>
+  </td>
+  <td width=253 valign=top style='width:189.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  background:white;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>          Add
+  Supplier Order Button</p>
+  </td>
+  <td width=276 valign=top style='width:207.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  background:white;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal;border:none'>Click
+  the “Add Supplier Order” button to add the supplier order. </p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal;border:none'>&nbsp;</p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>The following
+  success notification will be displayed:</p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal;border:none'><img border=0 width=240 height=48 id=image19.png src="doc_files/image116.png"></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=80 valign=top style='width:60.0pt;border:solid black 1.0pt;
+  border-top:none;background:white;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0cm;text-align:center;
+  line-height:normal'>     4.</p>
+  </td>
+  <td width=253 valign=top style='width:189.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  background:white;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>         
+  Back Button</p>
+  </td>
+  <td width=276 valign=top style='width:207.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  background:white;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>Click Back
+  Button to return to 3.7.1 Supplier Order Home screen</p>
+  </td>
+ </tr>
+ <tr style='height:29.05pt'>
+  <td width=80 valign=top style='width:60.0pt;border:solid black 1.0pt;
+  border-top:none;background:white;padding:0cm 5.4pt 0cm 5.4pt;height:29.05pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>        5.</p>
+  </td>
+  <td width=253 valign=top style='width:189.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  background:white;padding:0cm 5.4pt 0cm 5.4pt;height:29.05pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>        
+  Search bar</p>
+  </td>
+  <td width=276 valign=top style='width:207.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  background:white;padding:0cm 5.4pt 0cm 5.4pt;height:29.05pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>Enter a query
+  to search for specific product items</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=80 valign=top style='width:60.0pt;border:solid black 1.0pt;
+  border-top:none;background:white;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>        6.</p>
+  </td>
+  <td width=253 valign=top style='width:189.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  background:white;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>          Add
+  To Order Button</p>
+  </td>
+  <td width=276 valign=top style='width:207.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  background:white;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'> Click  the
+  “Add to order” button</p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>to add the
+  products to the current supplier order.</p>
+  </td>
+ </tr>
+ <tr style='height:28.5pt'>
+  <td width=80 valign=top style='width:60.0pt;border:solid black 1.0pt;
+  border-top:none;background:white;padding:0cm 5.4pt 0cm 5.4pt;height:28.5pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>        7.</p>
+  </td>
+  <td width=253 valign=top style='width:189.75pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  background:white;padding:0cm 5.4pt 0cm 5.4pt;height:28.5pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>        
+  Search bar</p>
+  </td>
+  <td width=276 valign=top style='width:207.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  background:white;padding:0cm 5.4pt 0cm 5.4pt;height:28.5pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>Enter a query
+  to search for specific order items</p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<P><font color="#FF0000" size="1" face="Arial">This document is created with Softany WordToHelp trial version. (The registered version will not show this message!)</font></P></div> 
+<div id="winchm_template_footer">&copy; 2022 POS-MS. All rights reserved.</div>
+</BODY>
+</HTML>
